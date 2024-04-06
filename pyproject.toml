@@ -1,0 +1,19 @@
+[project]
+name = "sequence-storages"
+version = "0.1.0"
+description = ""
+authors = [
+  {name = "Kirill Varchenko", email = "kirill.varchenko@gmail.com"},
+]
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools >= 69.2"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["sequence_storages"]
+
+[tool.ruff.lint]
+# Enable the isort rules.
+extend-select = ["I"]
